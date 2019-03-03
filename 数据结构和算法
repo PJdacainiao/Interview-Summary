@@ -1,0 +1,26 @@
+1.全排列问题
+元素交换不能和自身交换，如aba,第一三个a不能交换
+不同元素a，b交换时，若有多个重复元素a,a与b间的交换仅发生一次，防止重复，如abbb,交换的这一次发生在首个a
+class Solution {
+public:
+    vector<string> Permutation(string str) {
+        vector<string> result;
+        if(str.empty()) return result;
+        backtrack(str,result,0);
+        sort(result.begin(),result.end());
+        return result;
+    }
+    void backtrack(string& str,vector<string>& result, int pos){
+        if(pos==str.size())
+            result.push_back(str);
+        for(int i=pos;i<str.size();++i){
+            if(i!=pos&&(str[i]==str[i-1]||str[i]==str[pos])) //相同元素间不能交换且有元素重复时只交换一次（交换的是首次的元素，如aabb）
+                continue;
+            else{
+               swap(str[i],str[pos]);
+               backtrack(str, result,pos+1);
+               swap(str[i],str[pos]); 
+            }
+        }
+    }
+};
