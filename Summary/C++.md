@@ -29,7 +29,7 @@
 * strlen()和sizeof()
 * 其他的字符串处理函数
 
-### sizeof()及内存对其
+### sizeof()及内存对齐
 * [sizeof()](https://www.cnblogs.com/huolong-blog/p/7587711.html)
   
   	* 32bit操作系统基本数据类型的大小：char(1byte) bool(1byte) short(2bytes) int(4bytes) long(4bytes) float(4bytes) long long(8bytes) double(8bytes) 指针(4bytes)
