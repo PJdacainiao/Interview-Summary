@@ -192,7 +192,7 @@
 
    * Const_cast:用于去除指针或引用的const属性，把const类型的指针或引用转换为非const类型的指针或引用
    * Dynamic_cast:该操作用于运行时检查类型转换是否安全，只在多态类型时合法，即该类至少含有一个虚函数，dynamic_cast和static_cast具有相同的基本语法，dynamic_cast主要用于类层次间的上行和下行转换，在类层次间的上行转换，dynamic_cast和static_cast的效果是一样的，在进行下行转换时，dynamic_cast具有类型检查的功能，比static_cast更安全；只能用于转换指针和引用，当一个指针转换失败时，返回值为NULL；当引用转换失败时，会抛出bad_cast异常
-   * Static_cast:用于类层次结构中基类和子类间指针和引用的转换(进行上行转换时安全的，进行下行转换时，由于没有动态类型检查，所以是不安全的)；用于基本数据类型之间的转换；将空指针转换为目标类型指针
+   * Static_cast:用于类层次结构中基类和子类间指针和引用的转换(进行上行转换时安全的，进行下行转换时，由于没有动态类型检查，所以是[不安全](https://segmentfault.com/q/1010000009606912)的)；用于基本数据类型之间的转换；将空指针转换为目标类型指针
    * Reinterpreter_cast:转换一个指针为其它类型的指针，也可以将一个指针转换为整数类型，反之亦然
 
 * [C struct和C++ struct的区别](https://blog.csdn.net/it_is_me_a/article/details/82017073)
