@@ -200,7 +200,7 @@
    * 封装：即在结构体中包含含有类成员的结构体，通过该含有类成员的结构体访问具体的成员变量
    * 继承：利用C struct成员声明的顺序，在Derieved结构体中包含Base的结构体
    * 多态：使用void\*参数，进行强制类型转换，调用对应类型的函数，还是通过过类型转换实现的静态识别 
-* C++和C动态库链接使用([参考1](https://blog.csdn.net/lxw907304340/article/details/44921855),[参考2]((http://www.cnblogs.com/China3S/p/3267113.html)))或[C动态库供C++使用](https://blog.csdn.net/sjin_1314/article/details/20958149)
+* C++和C动态库链接使用([参考1](https://blog.csdn.net/lxw907304340/article/details/44921855),[参考2](http://www.cnblogs.com/China3S/p/3267113.html))或[C动态库供C++使用](https://blog.csdn.net/sjin_1314/article/details/20958149)
 
 
 
