@@ -187,7 +187,7 @@
 * 移动构造，右值引用
 * auto
 
-### 其他
+### C++/C的区别与联系
 * [四种类型转换](https://www.cnblogs.com/chenyangchun/p/6795923.html)
 
    * Const_cast:用于去除指针或引用的const属性，把const类型的指针或引用转换为非const类型的指针或引用
