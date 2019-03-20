@@ -202,7 +202,14 @@
    * 多态：使用void\*参数，进行强制类型转换，调用对应类型的函数，还是通过过类型转换实现的静态识别 
 * C++和C动态库链接使用([参考1](https://blog.csdn.net/lxw907304340/article/details/44921855),[参考2](http://www.cnblogs.com/China3S/p/3267113.html))或[C动态库供C++使用](https://blog.csdn.net/sjin_1314/article/details/20958149)
 
-
+### C++编译链接
+* [编译链接的过程](https://www.cnblogs.com/magicsoar/p/3760201.html)
+* [模块分离编译以及模板调用](https://blog.csdn.net/uestclr/article/details/51372780)
+* [C/C++内存布局](https://www.cnblogs.com/milantgh/p/3902797.html)以及C++中[自由存储区与堆的区别](https://www.cnblogs.com/QG-whz/p/5060894.html)(仅仅概念上的差别)
+* [gcc的链接顺序](https://www.cnblogs.com/ironx/p/4939508.html)
+* **gcc控制多个源文件中的全局变量初始化顺序？？？**
+* [C++全局变量初始](https://www.cnblogs.com/catch/p/4314256.html)
+* 
 
   
   
