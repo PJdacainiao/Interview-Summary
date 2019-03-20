@@ -203,13 +203,25 @@
 * C++和C动态库链接使用([参考1](https://blog.csdn.net/lxw907304340/article/details/44921855),[参考2](http://www.cnblogs.com/China3S/p/3267113.html))或[C动态库供C++使用](https://blog.csdn.net/sjin_1314/article/details/20958149)
 
 ### C++编译链接
-* [编译链接的过程](https://www.cnblogs.com/magicsoar/p/3760201.html)
+* [编译链接的过程](https://www.cnblogs.com/magicsoar/p/3760201.html)(注意预处理的操作和编译的具体步骤)
 * [模块分离编译以及模板调用](https://blog.csdn.net/uestclr/article/details/51372780)
 * [C/C++内存布局](https://www.cnblogs.com/milantgh/p/3902797.html)以及C++中[自由存储区与堆的区别](https://www.cnblogs.com/QG-whz/p/5060894.html)(仅仅概念上的差别)
+* [C++中不同变量在内存中的分布]
+  * 代码段（可执行代码，字符串常量）
+  * 数据段（已初始化的全局变量，静态局部变量，常量）
+  * bss段（未初始化的全局变量）
+  * 栈（局部变量，[alloca](https://baike.baidu.com/item/alloca/7621487?fr=aladdin)）
+  * 堆（动态分配的内存）
 * [gcc的链接顺序](https://www.cnblogs.com/ironx/p/4939508.html)
 * **gcc控制多个源文件中的全局变量初始化顺序？？？**
-* [C++全局变量初始](https://www.cnblogs.com/catch/p/4314256.html)
-* 
+* [C++全局变量初始化](https://www.cnblogs.com/catch/p/4314256.html)
+
+### C++模板
+* 特化和偏特化
+* 类模板与函数模板，参数推导
+* 基于模板简单的递归
+
+
 
   
   
