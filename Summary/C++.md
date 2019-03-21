@@ -221,11 +221,14 @@
 * [模板的参数推导](https://github.com/PJdacainiao/Interview-Summary/blob/master/Summary/%E5%86%85%E5%AE%B9%E7%B4%A2%E5%BC%95.md#10%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0%E6%8E%A8%E5%AF%BC)
 * [特化和偏特化](https://github.com/PJdacainiao/Interview-Summary/blob/master/Summary/%E5%86%85%E5%AE%B9%E7%B4%A2%E5%BC%95.md#8%E5%85%A8%E7%89%B9%E5%8C%96%E5%92%8C%E5%81%8F%E7%89%B9%E5%8C%96)
 * [模板参数引用折叠及std::move](https://github.com/PJdacainiao/Interview-Summary/blob/master/Summary/%E5%86%85%E5%AE%B9%E7%B4%A2%E5%BC%95.md#9stdmove%E4%BB%A5%E5%8F%8A%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0%E4%B8%AD%E7%9A%84%E5%BC%95%E7%94%A8%E6%8A%98%E5%8F%A0)
-* [基于模板简单的递归](https://www.cnblogs.com/yutongqing/p/6755176.html)
+* [基于模板简单的递归](https://www.cnblogs.com/yutongqing/p/6755176.html)###
 
-
-
-  
+### c++内存及其他
+* [C++内存泄漏及检测方式valgrind](https://www.cnblogs.com/skynet/archive/2011/02/20/1959162.html)
+* [内存泄漏避免](https://blog.csdn.net/kevin_ysu/article/details/7792215)
+* [RAII]
+* [C++同步互斥的实现](https://www.cnblogs.com/mqxs/p/6396954.html)(mutex,thread,condition_variable,[C++的原子操作](https://blog.csdn.net/liuxuejiang158blog/article/details/17413149))
+* 
   
   
   
