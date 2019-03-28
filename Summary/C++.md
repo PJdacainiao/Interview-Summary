@@ -226,7 +226,7 @@
 ### c++内存及其他
 * [C++内存泄漏及检测方式valgrind](https://www.cnblogs.com/skynet/archive/2011/02/20/1959162.html)
 * [内存泄漏避免](https://blog.csdn.net/kevin_ysu/article/details/7792215)
-* [RAII]
+* [RAII](https://www.cnblogs.com/jiangbin/p/6986511.html)(C++构造析构时机，相同的生命周期，内存资源（智能指针），文件描述符资源(fd),mutex)
 * [C++同步互斥的实现](https://www.cnblogs.com/mqxs/p/6396954.html)(mutex,thread,condition_variable,[C++的原子操作](https://blog.csdn.net/liuxuejiang158blog/article/details/17413149))
 * [C++实现一个函数先于main函数实现](https://www.zhihu.com/question/26031933)(利用全局变量)
   * 定义全局变量类对象：在类的构造函数中定义先于main的语句
@@ -234,9 +234,14 @@
   * C中利用特殊方法写构造函数和析构函数
 * [如何实现非定长的结构体](https://www.cnblogs.com/pluviophile/p/7571410.html)
 * [浮点数判断相等](https://www.zhihu.com/question/21175703)
-* [main函数有没有返回值，出现异常怎么捕获]()
-  
-  
+* [main函数](https://www.cnblogs.com/xiaozz/p/6448415.html)有没有返回值([return和exit](https://www.cnblogs.com/cxchanpin/p/6927025.html))，出现[异常](https://blog.csdn.net/qq_27211267/article/details/80718405)怎么捕获
+* [面向对象的优缺点](https://www.cnblogs.com/strivers/p/6681876.html)
+* public,protected,private[访问控制说明符和继承控制说明符](https://blog.csdn.net/sinat_36219858/article/details/72850655)(三种继承属性只控制派生类对象（包括派生类的派生类）对基类成员的访问，即子类中父类的属性发生了变化，**影响子类向父类的转换**)
+* [\_cdecl,\_stdcall,\_fastcall调用规则的区别](https://blog.csdn.net/luoweifu/article/details/52425733)
+* 函数的默认实参为什么放在最右边
+* 值传递，指针传递
+* [do{} while(0)语句](http://www.cnblogs.com/lanxuezaipiao/p/3535626.html)
+* 两个struct相等，能不能用memcpy比较 
   
   
   
