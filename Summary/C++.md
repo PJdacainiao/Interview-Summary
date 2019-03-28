@@ -241,8 +241,11 @@
 * 函数的默认实参为什么放在最右边
 * 值传递，指针传递
 * [do{} while(0)语句](http://www.cnblogs.com/lanxuezaipiao/p/3535626.html)
-* 两个struct相等，能不能用memcpy比较 
-  
+* [两个struct相等，能不能用memcpy比较](https://blog.csdn.net/peng314899581/article/details/60766892)(直接重载运算符比较每一个元素) 
+* [堆栈溢出原因](https://www.nowcoder.com/questionTerminal/3f5d671e15704751b46426378a0f1830?source=relative)
+* [全局变量的优缺点](https://blog.csdn.net/zy799894671/article/details/7742691)
+* [char \*p和char p[]的区别，判断是否相等](https://blog.csdn.net/liuchenxia8/article/details/79125846)
+* 长整数与短整数()
   
   
   
