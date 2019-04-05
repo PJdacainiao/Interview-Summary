@@ -245,7 +245,8 @@
 * [堆栈溢出原因](https://www.nowcoder.com/questionTerminal/3f5d671e15704751b46426378a0f1830?source=relative)
 * [全局变量的优缺点](https://blog.csdn.net/zy799894671/article/details/7742691)
 * [char \*p和char p[]的区别，判断是否相等](https://blog.csdn.net/liuchenxia8/article/details/79125846)
-* 长整数与短整数(https://github.com/PJdacainiao/Interview-Summary/blob/master/Summary/%E5%86%85%E5%AE%B9%E7%B4%A2%E5%BC%95.md#11%E9%95%BF%E6%95%B4%E6%95%B0)
+* [长整数与短整数](https://github.com/PJdacainiao/Interview-Summary/blob/master/Summary/%E5%86%85%E5%AE%B9%E7%B4%A2%E5%BC%95.md#11%E9%95%BF%E6%95%B4%E6%95%B0)
+* [assert和static_assert](https://www.cnblogs.com/DswCnblog/p/6369576.html)
   
   
   
