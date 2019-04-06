@@ -8,5 +8,7 @@
    * 应用层心跳和传输层心跳的[优缺点](https://blog.csdn.net/chrisnotfound/article/details/80112736)
 * TcpServer
  * [TCP关闭时的整个流程](https://blog.csdn.net/u010087886/article/details/50764342)
- * []
+ * [如何判断一个C++可执行文件是debug build还是release build](https://blog.csdn.net/zhangzq86/article/details/80840927),即判断可执行文件是-O0编译的还是-O2编译的
+   * 
+ 
  
