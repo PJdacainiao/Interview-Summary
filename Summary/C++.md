@@ -6,14 +6,14 @@
 * **C++ static变量的初始化顺序？？？**
 * [new/delete和malloc/free的区别](https://www.cnblogs.com/maluning/p/7944231.html)
 * [free如何知道要释放的空间的大小](https://www.zhihu.com/question/302440083?rf=312690701)
-* ***delete如何知道数组的长度***
+* [delete如何知道数组的长度](https://blog.csdn.net/u013279723/article/details/71709436)
 * operater new()重载，定位new表达式(运算符)
 
-  1.new和delete是C++运算符，一般说的重载就是重载oprerator new,operator new [],operator delete, operator delete[];
-  2.有八种operator new和operator delete的重载形式，前面四种参数里没有nothrow_t类型，分配错误时会产生bad_alloc，后四种不会报错
-  3.可以自定义，重载上述四种类型的operator new和operator delete,但是不能重载 void* new(size_t, void*)版本，因为该版本为标准库使用，即3定位new表达式构造一个对象时使用，重载的函数同样要使用定位new形式去调用。
-  4.定位new运算符，传入一个指针参数时，表示在该指针处构造对象，相当于construct,但是该指针可以不是allocator分配的空间首地址
-  5.new的定位形式与定位new运算符是不一样的，定位new表达式使用的是void/* operator new(size_t,void*/) 重载，故重载时不能使用此版本。
+  * 1.new和delete是C++运算符，一般说的重载就是重载oprerator new,operator new [],operator delete, operator delete[];
+  * 2.有八种operator new和operator delete的重载形式，前面四种参数里没有nothrow_t类型，分配错误时会产生bad_alloc，后四种不会报错
+  * 3.可以自定义，重载上述四种类型的operator new和operator delete,但是不能重载 void* new(size_t, void*)版本，因为该版本为标准库使用，即3定位new表达式构造一个对象时使用，重载的函数同样要使用定位new形式去调用。
+  * 4.定位new运算符，传入一个指针参数时，表示在该指针处构造对象，相当于construct,但是该指针可以不是allocator分配的空间首地址
+  * 5.new的定位形式与定位new运算符是不一样的，定位new表达式使用的是void/* operator new(size_t,void*/) 重载，故重载时不能使用此版本。
   
 * [extern C](https://www.cnblogs.com/carsonzhu/p/5272271.html)
 * 宏定义[#define](https://www.cnblogs.com/fnlingnzb-learner/p/6903966.html),[#ifndef](https://www.cnblogs.com/qinduanyinghua/p/7679018.html)
