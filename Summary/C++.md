@@ -29,7 +29,7 @@
 * [常量define,const,constexpr,enum]
   * enum就是讲一组整数常量组织在一起，每一条都是一个常量表达式，C++11分为不限定作用域的每局类型和限定作用域的枚举类型，后者在enum之后加class,且需要使用作用域运算符调用。
 * [enum类型占用的内存](https://blog.csdn.net/ipmux/article/details/17334099)
-  * 仅对[枚举类型的变量分配空间]()，枚举类型的大小为其中枚举项的大小（枚举变量只能赋一个值）
+  * 仅对[枚举类型的变量分配空间](https://github.com/PJdacainiao/Interview-Summary/blob/master/Summary/%E7%AE%97%E6%B3%95%E7%B4%A2%E5%BC%95.md#enum%E7%9A%84%E5%A4%A7%E5%B0%8F)，枚举类型的大小为其中枚举项的大小（枚举变量只能赋一个值）
   * class类中的枚举类型不占用空间，仅枚举类型的变量占用空间
 * [const和constexpr区别](https://www.cnblogs.com/wangxiaobao/p/5966394.html)
 
