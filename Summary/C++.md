@@ -1,5 +1,6 @@
 ### 关键字和宏定义
 * [const用法](https://www.jb51.net/article/118141.htm)以及[const和define的区别](https://blog.csdn.net/zhang_yanx/article/details/77801851)
+  * const 作为函数返回值修饰符的作用仅仅是希望返回的值被作为值来使用，也仅限于返回底层const.
 * [static用法](https://www.cnblogs.com/jhmu0613/p/7131997.htmlhttps://www.cnblogs.com/jhmu0613/p/7131997.html)
 * [static成员函数为什么不声明为虚函数，或const，volitile](https://www.cnblogs.com/lakeone/p/5967548.html)
 * **C++ static变量的初始化顺序？？？**
