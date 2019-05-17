@@ -223,9 +223,9 @@
   * bss段（未初始化的全局变量）
   * 栈（局部变量，[alloca](https://baike.baidu.com/item/alloca/7621487?fr=aladdin)）
   * 堆（动态分配的内存）
-* [gcc的链接顺序](https://www.cnblogs.com/ironx/p/4939508.html)
-* **gcc控制多个源文件中的全局变量初始化顺序？？？**
-* [C++全局变量初始化](https://www.cnblogs.com/catch/p/4314256.html)
+* gcc链接及全局变量初始化
+  * [gcc的链接顺序](https://www.cnblogs.com/ironx/p/4939508.html)
+  * [C++全局变量初始化](https://www.cnblogs.com/catch/p/4314256.html)
 
 ### C++模板
 * [类模板与函数模板的区别](https://github.com/PJdacainiao/Interview-Summary/blob/master/Summary/%E5%86%85%E5%AE%B9%E7%B4%A2%E5%BC%95.md#7%E7%B1%BB%E6%A8%A1%E6%9D%BF%E4%B8%8E%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%E7%9A%84%E5%8C%BA%E5%88%AB)
