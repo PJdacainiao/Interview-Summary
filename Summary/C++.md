@@ -192,7 +192,7 @@
 
 ### C++11标准
 * lambda表达式，参数捕获类型，[编辑器的实现机制](https://blog.csdn.net/freshui/article/details/55098799?utm_source=blogxgwz3)
-  * 是使用了operator()重载的类对象，捕获值都是类对象的成员，以此来使用捕获值
+  * 是使用了operator()重载的函数对象，通过值捕获的捕获值都是类对象的成员，以此来使用捕获值
 * 智能指针
 * final,delete
 * 移动构造，右值引用
