@@ -187,7 +187,7 @@
 * [空悬指针和野指针，以及对应的避免方法](https://blog.csdn.net/tangaowen/article/details/1699826)
 * [迭代器失效问题](https://blog.csdn.net/weixin_41413441/article/details/81591656)，一般使用erase(iter)返回新的iter避免失效迭代器
 * [智能指针](https://www.cnblogs.com/wxquare/p/4759020.html)，shared_ptr的引用计数是原子操作，但访问该对象时需要加锁
-* [auto_ptr](https://blog.csdn.net/K346K346/article/details/81478223)和unique_ptr的差别及优缺点
+* [auto_ptr](https://blog.csdn.net/K346K346/article/details/81478223)和unique_ptr的[差别](https://blog.csdn.net/weixin_40081916/article/details/79377564)及优缺点
 * char (\*p)[]，char \*p[]，char (\*p)()
 
 ### C++11标准
